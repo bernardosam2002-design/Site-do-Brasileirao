@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brasileirão</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>🇧🇷 Brasileirão</h1>
+
+        <p>O campeonato mais disputado do Brasil!</p>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#times">Times</a>
+            <a href="#classificacao">Classificação</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+    </header>
+
+
+    <section id="inicio" class="inicio">
+
+        <h2>Bem-vindo ao Brasileirão!</h2>
+
+        <p>
+            Confira informações sobre alguns dos principais
+            times do Campeonato Brasileiro.
+        </p>
+
+        <button onclick="mostrarMensagem()">
+            Sobre o Brasileirão
+        </button>
+
+        <p id="mensagem"></p>
+
+    </section>
+
+
+    <section id="times">
+
+        <h2>Times</h2>
+
+        <div class="times">
+
+            <div class="time">
+                <h3>Flamengo</h3>
+
+                <p>Rio de Janeiro</p>
+
+                <button onclick="verTime('Flamengo')">
+                    Ver time
+                </button>
+            </div>
+
+
+            <div class="time">
+                <h3>Palmeiras</h3>
+
+                <p>São Paulo</p>
+
+                <button onclick="verTime('Palmeiras')">
+                    Ver time
+                </button>
+            </div>
+
+
+            <div class="time">
+                <h3>Corinthians</h3>
+
+                <p>São Paulo</p>
+
+                <button onclick="verTime('Corinthians')">
+                    Ver time
+                </button>
+            </div>
+
+
+            <div class="time">
+                <h3>São Paulo</h3>
+
+                <p>São Paulo</p>
+
+                <button onclick="verTime('São Paulo')">
+                    Ver time
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="classificacao">
+
+        <h2>Classificação</h2>
+
+        <table>
+
+            <tr>
+                <th>Posição</th>
+                <th>Time</th>
+                <th>Pontos</th>
+            </tr>
+
+            <tr>
+                <td>1º</td>
+                <td>Flamengo</td>
+                <td>30</td>
+            </tr>
+
+            <tr>
+                <td>2º</td>
+                <td>Palmeiras</td>
+                <td>28</td>
+            </tr>
+
+            <tr>
+                <td>3º</td>
+                <td>São Paulo</td>
+                <td>25</td>
+            </tr>
+
+            <tr>
+                <td>4º</td>
+                <td>Corinthians</td>
+                <td>22</td>
+            </tr>
+
+        </table>
+
+        <p class="aviso">
+            * Classificação utilizada apenas como exemplo para o projeto.
+        </p>
+
+    </section>
+
+
+    <section id="contato" class="contato">
+
+        <h2>Contato</h2>
+
+        <p>📧 contato@brasileirao.com</p>
+
+        <p>📱 (11) 99999-9999</p>
+
+    </section>
+
+
+    <footer>
+
+        <p>© 2026 Brasileirão - Projeto acadêmico</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
